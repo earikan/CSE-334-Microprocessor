@@ -1,0 +1,16 @@
+################################################
+Number Mind Game
+
+- LCD'de yazı yazar, buzzer öter.
+- Hız ayarlanaması istenirse beklenir. Hız ayarlaması için DIP Switch 0. ve 1. bitler kullanılmıştır ve
+interrupt ile handle edilmiştir. 0.bit sayıların gösterim süresini 0.5 kat hızlandırmakta,
+1.bit 2 kat yavaşlatmaktadır.
+- Serial'den teraterm ile oyun modu istenir. (easy - medium)
+- Easy'de 2 basamaklı,  medium'da 3 basamaklı sayılar 7 segmentte gösterilir.
+- Keypadden sayılar -gösterim bittikten sonra- girilmek zorundadır.
+- Mesela ekranda 13,45,68 gösterildiyse kullanıcı keypadden arka arkaya 134568 girmelidir.
+- Kaybedince ya da kazanınca LCD'de uyarı verilir, kaybedince buzzer öter.
+- Sensör hariç pdf'teki tüm istenenler kullanılmıştır.
+
+################################################
+
